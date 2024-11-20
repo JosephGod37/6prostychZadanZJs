@@ -11,7 +11,6 @@ class Students{
     }
     mean(){
         const suma = this.listaOcen.reduce((acc, ocena) => acc + ocena, 0);
-        console.log(this.listaOcen.length)
         const srednia = suma/this.listaOcen.length
         console.log(srednia)
     }
